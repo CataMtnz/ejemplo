@@ -129,7 +129,7 @@ public class PadreTrabajador {
 			}
 	}
 	public String AprobarReunion(Boolean Reuniones) {
-			if (atenderLlamadas == true) {
+			if (Reuniones == true) {
 				return "Perfecto la reunión comienza  a las (+HORAS) en (+LUGAR ASIGNADO)";
 			} else {
 				return "No se ha generado la reunión, permita asginar un reagendamiento";
